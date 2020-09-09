@@ -1,0 +1,15 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    },
+    "autoload": {
+        "psr-4": {
+            "CharsSort\\": "src/CharsSort/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CharsSort\\Tests\\": "tests/"
+        }
+    }
+}
